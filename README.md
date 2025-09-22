@@ -2,7 +2,9 @@
 ## (lab) file IO
 
 ```
-Initialize file pointer, stringstream, string word, string numberA, string numberB, int num1, int num2, int sum, and int i
+Initialize file pointer and stringstream
+Intialize strings word, numA, and numB
+Intialize ints num1, num2, and sum
 ```
 
 ### main()
@@ -20,7 +22,7 @@ for each line in the data file:
 Open up the data file in a loop to read the file one line at a time
     for each line in the data file:
         set the first number to string numA
-        set the second number to string numbB
+        set the second number to string numB
         set the word to string word
 return string numA, numB, word
 ```
