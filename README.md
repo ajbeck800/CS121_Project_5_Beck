@@ -3,8 +3,8 @@
 
 ```
 Initialize file pointer and stringstream
-Intialize strings word, numA, and numB
-Intialize ints num1, num2, and sum
+Intialize string word
+Intialize ints numA, numB, and sum
 ```
 
 ### main()
@@ -15,8 +15,7 @@ while keepGoing equals true:
     if at end of file:
         set keepGoing to false
     else:
-        convert string numA and numB into int num1 and num2
-        add num1 and num2 and store it in sum
+        add numA and numB and store it in sum
         for sum times:
             print word
 ```
@@ -25,8 +24,8 @@ while keepGoing equals true:
 ```
 Open up the data file in a loop to read the file one line at a time
     for each line in the data file:
-        set the first number to string numA
-        set the second number to string numB
+        set the first number to int numA
+        set the second number to int numB
         set the word to string word
-return string numA, numB, word
+return int numA and numB and string word
 ```
