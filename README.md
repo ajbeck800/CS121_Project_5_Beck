@@ -9,12 +9,16 @@ Intialize ints num1, num2, and sum
 
 ### main()
 ```
-call getLine()
-for each line in the data file:
-    convert string numA and numB into int num1 and num2
-    add num1 and num2 and store it in sum
-    for sum times:
-        print word
+set keepGoing to true
+while keepGoing equals true:
+    call getLine()
+    if at end of file:
+        set keepGoing to false
+    else:
+        convert string numA and numB into int num1 and num2
+        add num1 and num2 and store it in sum
+        for sum times:
+            print word
 ```
 
 ### getline()
