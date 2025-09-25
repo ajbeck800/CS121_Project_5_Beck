@@ -3,8 +3,8 @@
 
 ### main()
 ```
-Open up the data file in a loop to read the file one line at a time
-    for each line in the data file:
+Open up data.csv in a loop to read the file one line at a time
+    for each line in data.csv:
         set the first number to int numA
         set the second number to int numB
         set the word to string word
