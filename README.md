@@ -1,12 +1,6 @@
 # CS121_Project_5_Beck
 ## (lab) file IO
 
-```
-Initialize file pointer and stringstream
-Intialize string word
-Intialize ints numA, numB, and sum
-```
-
 ### main()
 ```
 Open up the data file in a loop to read the file one line at a time
@@ -15,13 +9,13 @@ Open up the data file in a loop to read the file one line at a time
         set the second number to int numB
         set the word to string word
 
-set keepGoing to true
+set boolean keepGoing to true
 while keepGoing equals true:
     call getLine()
     if at end of file:
         set keepGoing to false
     else:
-        add numA and numB and store it in sum
+        add numA and numB and store it in int sum
         for sum times:
             print word
 ```
